@@ -2,7 +2,7 @@
 package mx.unam.fi.die.poo.g7.src.Práctica_7.Ejercicio_2;
 
 // Clase que representa un punto en un plano cartesiano.
-public class Cuadrilátero {
+public abstract class Cuadrilátero {
 
   private Punto p1;
   private Punto p2;
@@ -65,9 +65,5 @@ public class Cuadrilátero {
   }
 
   // Método para calcular el área que se modificará en los hijos
-  public double calcularArea() {
-    // Este método será sobrescrito en las clases hijas
-    return 0;
-  }
-  
+  public abstract double calcularArea(); 
 }
